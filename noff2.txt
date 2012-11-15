@@ -1,2 +1,2 @@
-Second no-ff test
 Conflict test
+Second no-ff test
