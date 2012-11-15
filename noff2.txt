@@ -1,1 +1,2 @@
+Introducing conflict
 Second no-ff test
