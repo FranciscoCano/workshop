@@ -105,6 +105,9 @@ public class User implements Serializable {
     @Transient
     private boolean hasWallet;
 
+    @Transient
+    private boolean peopleIsAttending;
+
     /**
      * Constructor.
      */
@@ -280,6 +283,7 @@ public class User implements Serializable {
         if (paymentMethods != null) {
             for (PaymentMethod paymentMethod : paymentMethods) {
                 if (paymentMethod.getType() == PaymentMethod.PaymentMethodType.EMONEY) {
+           // Let's write a useless comment
                     hasSVA = true;
                     break;
                 }
