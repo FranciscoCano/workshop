@@ -23,6 +23,7 @@ import es.tid.wallet.model.payments.PaymentMethod.PaymentMethodType;
 
 /**
  * User Entity.
+ * Modified.
  */
 @Entity
 @Table(name = "users")
