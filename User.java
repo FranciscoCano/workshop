@@ -24,6 +24,7 @@ import es.tid.wallet.model.payments.PaymentMethod.PaymentMethodType;
 /**
  * User Entity.
  * Modified.
+ * Modified again.
  */
 @Entity
 @Table(name = "users")
